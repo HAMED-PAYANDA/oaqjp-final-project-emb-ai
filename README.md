@@ -1,6 +1,6 @@
-AI-Based Emotion Detection Web Application
+#AI-Based Emotion Detection Web Application
 
-A Python Flask web application that detects emotions in text using IBM Watson Natural Language Understanding (NLU). This repository contains the full code for the backend API, unit tests, and deployment setup.
+##A Python Flask web application that detects emotions in text using IBM Watson Natural Language Understanding (NLU). This repository contains the full code for the backend API, unit tests, and deployment setup.
 
 ⸻
 
