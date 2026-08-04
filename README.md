@@ -52,40 +52,40 @@ final_project/
 └── README.md                 # Project documentation
 ```
 
-
-
-
-
-# AI-Based Emotion Detection Web Application
-
-A **Python Flask web application** that detects emotions in text using IBM Watson Natural Language Understanding (NLU). This repository contains the full code for the backend API, unit tests, and deployment setup.
-
----
-
-## 🚀 Features
-
-- Detect multiple emotions in any text.
-- Identify the dominant emotion.
-- Simple REST API for integration.
-- Handles invalid inputs gracefully.
-- Fully PyLint 10/10 compliant.
-- Ready for local or cloud deployment.
-
----
-
-## ⚡ Installation & Running
-
-```bash
-
-
+⚙️ Installation & Execution
+To run the application locally on your machine, follow these steps:
+1. Create a Virtual Environment
+Isolating the project dependencies is highly recommended.
+```text
 python -m venv venv
-source venv/bin/activate       # Linux/macOS
-pip install -r requirements.txt
+```
+2. Activate the Environment
+# On Linux / macOS:
+```text
+source venv/bin/activate
+```
 
-- Run the server
+# On Windows:
+```text
+venv\Scripts\activate
+```
+
+3. Install Dependencies
+```text
+pip install -r requirements.txt
+```
+
+4. Run the Server
+```text
 python server.py
-- Response Example:
-  {
+```
+
+The Flask server will initialize and begin listening for API requests.
+
+📡 API Response Example
+Once the server is running, submitting a valid text query to the endpoint will return a formatted JSON response mapping the emotional scores:
+```text
+{
   "response": "For the given statement, the system response is 'anger': 0.0, 'disgust': 0.0, 'fear': 0.0, 'joy': 0.95, 'sadness': 0.05. The dominant emotion is joy.",
   "emotions": {
     "anger": 0.0,
@@ -96,17 +96,13 @@ python server.py
     "dominant_emotion": "joy"
   }
 }
+```
 
+## 👤 Author
 
-- Project Structure
+**Hamed Payanda**
+* GitHub: [@HAMED-PAYANDA](https://github.com/HAMED-PAYANDA)
 
-final_project/
-├─ EmotionDetection/          # Emotion detection logic using Watson NLP
-│   └─ emotion_detection.py
-├─ server.py                  # Flask API server
-├─ requirements.txt           # Python dependencies
-└─ README.md                  # This file
+---
+*Completed as part of the IBM Full-Stack Software Developer Professional Certificate.*
 
-Deployment
-	•	Can be deployed locally using Flask.
-	•	Can be containerized with Docker for cloud deployment.
