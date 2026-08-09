@@ -125,9 +125,10 @@ Once the server is running, submitting a valid text query to the endpoint will r
 }
 ```
 
-👤 Author
-Hamed Payanda
-•	GitHub: @HAMED-PAYANDA
-•	Completed as part of the IBM Full-Stack Software Developer Professional..
+## 👤 Author
+
+**Hamed Payanda**
+* **GitHub:** [@HAMED-PAYANDA](https://github.com/HAMED-PAYANDA)
+* Completed as part of the **IBM Full-Stack Software Developer Professional**.
 
 
