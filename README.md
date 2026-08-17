@@ -45,6 +45,7 @@ graph LR
     style Watson fill:#fff3e0,stroke:#f57c00,stroke-width:2px,color:#000
 ```
 
+---
 
 ## 🚀 Key Features
 
@@ -85,15 +86,29 @@ The following screenshots document the backend development process, highlighting
 ## 📁 Project Structure
 
 ```text
-final_project/
-├── EmotionDetection/
-│   └── emotion_detection.py  # Core emotion detection logic using Watson NLP
-├── server.py                 # Flask API server routing
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation
+AI-Emotion-Detection/
+├── .theia/
+│   └── settings.json               # Cloud IDE environment configurations
+├── final_project/
+│   ├── EmotionDetection/           # Custom Python package for NLP logic
+│   │   ├── __pycache__/            # Compiled Python bytecode
+│   │   ├── __init__.py             # Initializes directory as a Python package
+│   │   └── emotion_detection.py    # Core IBM Watson NLU integration logic
+│   ├── oaqjp-final-project-emb-ai/ # Project resources and related materials
+│   ├── __pycache__/                # Compiled Python bytecode
+│   ├── __init__.py                 # Initializes the directory as a module
+│   ├── server.py                   # Main Flask application and API routing
+│   └── test_emotion_detection.py   # Unit tests for the emotion detection logic
+├── 2b_application_creation.png     # Visual proof: Application creation & interactive testing
+├── 8b_static_code_analysis.png     # Visual proof: PyLint static code analysis
+├── LICENSE                         # MIT License file
+└── README.md                       # Project documentation
 ```
 
-⚙️ Installation & Execution
+---
+
+## ⚙️ Installation & Execution
+
 To run the application locally on your machine, follow these steps:
 1. Create a Virtual Environment
 Isolating the project dependencies is highly recommended.
@@ -123,6 +138,8 @@ python server.py
 
 The Flask server will initialize and begin listening for API requests.
 
+---
+
 ## 📡 API Response Example
 Once the server is running, submitting a valid text query to the endpoint will return a formatted JSON response mapping the emotional scores:
 ```text
@@ -138,6 +155,13 @@ Once the server is running, submitting a valid text query to the endpoint will r
   }
 }
 ```
+---
+
+## 📜 License 
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+---
 
 ## 👤 Author
 
