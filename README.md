@@ -68,6 +68,20 @@ graph LR
 
 ---
 
+## 📸 Visual Proof
+
+The following screenshots document the backend development process, highlighting API integration testing and strict code quality enforcement.
+
+**1. Core Application Logic & Interactive Testing**  
+*A view of the Cloud IDE workspace highlighting the `emotion_detection.py` module. The editor showcases the robust error handling and payload structuring required for the IBM Watson NLU API integration. The integrated terminal demonstrates successful local testing of the `emotion_detector` module via the Python interactive shell.*
+![Application Creation & Testing](2b_application_creation.png)
+
+**2. Static Code Analysis & Quality Assurance**  
+*Terminal output demonstrating the iterative code quality checks performed using PyLint on the Flask server. The log highlights the resolution of syntax warnings and unused arguments, ensuring the `server.py` file adheres to strict Python standards and maintains a highly rated codebase prior to deployment.*
+![PyLint Static Code Analysis](8b_static_code_analysis.png)
+
+---
+
 ## 📁 Project Structure
 
 ```text
